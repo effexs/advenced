@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:textSize="12sp" android:tag="layout/item_uninstall_feedback_choice_0" android:paddingLeft="@dimen/eg" android:paddingTop="8dp" android:paddingRight="@dimen/eg" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>

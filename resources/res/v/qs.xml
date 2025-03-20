@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.supercharge.shimmerlayout.ShimmerLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/shimmerLayout" android:tag="layout/layout_loading_item_home_filter_0" android:layout_width="match_parent" android:layout_height="wrap_content" app:shimmer_angle="0" app:shimmer_animation_duration="800" app:shimmer_color="?attr/boy">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/z2"/>
+        <include layout="@layout/z0"/>
+        <include layout="@layout/z0"/>
+        <include layout="@layout/z0"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</io.supercharge.shimmerlayout.ShimmerLayout>

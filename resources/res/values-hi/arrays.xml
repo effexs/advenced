@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="n">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>सामान्य</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </array>
+    <array name="m">
+        <item>बफरिंग</item>
+        <item>नहीं चल सकता</item>
+        <item>लॉग इन नहीं कर सकते</item>
+        <item>बहुत सारे विज्ञापन</item>
+        <item>विज्ञापन बग</item>
+        <item>अनुपयुक्त विज्ञापन सामग्री</item>
+        <item>किसी अन्य ऐप का उपयोग करें</item>
+    </array>
+</resources>

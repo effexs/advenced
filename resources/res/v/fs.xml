@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/layout_copyright_form_banner_item_0" android:paddingTop="30dp" android:paddingBottom="13dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="30dp" android:paddingEnd="30dp">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="129dp" android:layout_height="30dp" app:srcCompat="@drawable/df"/>
+    <TextView android:textSize="22sp" android:textStyle="bold" android:textColor="?attr/bt1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/fr" android:includeFontPadding="false"/>
+    <TextView android:textSize="16sp" android:textColor="#ff7c7c7e" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:text="@string/xs" android:includeFontPadding="false"/>
+</LinearLayout>

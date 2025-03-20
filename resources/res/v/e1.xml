@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/coordinator" android:tag="layout/fragment_adblock_share_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@+id/design_bottom_sheet1" android:tag="binding_1" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" app:behavior_hideable="true" app:behavior_peekHeight="520dp" app:layout_behavior="@string/ek">
+        <View android:id="@+id/viewHead" android:background="?attr/a9" android:layout_width="0dp" android:layout_height="0dp" app:elevation="6dp" app:layout_constraintBottom_toBottomOf="@+id/layoutBanner" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/viewLine"/>
+        <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="?attr/rx" android:gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/tvTitle" android:background="?attr/a9" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="49dp" android:text="@string/big" app:elevation="6dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/viewHead"/>
+        <include layout="@layout/h6"/>
+        <include layout="@layout/h4"/>
+        <View android:id="@+id/viewLine" android:layout_width="0dp" android:layout_height="1dp" app:layout_constraintBottom_toBottomOf="@+id/layoutBanner" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="@+id/layoutBanner"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="n">
+        <item>0,25</item>
+        <item>0,5</item>
+        <item>0,75</item>
+        <item>Обычная</item>
+        <item>1,25</item>
+        <item>1,5</item>
+        <item>2</item>
+    </array>
+    <array name="m">
+        <item>Буферизация</item>
+        <item>Невозможно запустить</item>
+        <item>Невозможно зайти в аккаунт</item>
+        <item>Слишком много рекламы</item>
+        <item>Ошибка рекламы</item>
+        <item>Недопустимый рекламный контент</item>
+        <item>Используйте другое приложение</item>
+    </array>
+</resources>

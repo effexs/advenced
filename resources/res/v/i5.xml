@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="@integer/m" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <include layout="@layout/gz"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/mtrl_calendar_main_pane" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/mtrl_calendar_frame" android:paddingLeft="@dimen/qk" android:paddingRight="@dimen/qk" android:paddingBottom="@dimen/qg" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:paddingStart="@dimen/qk" android:paddingEnd="@dimen/qk"/>
+        <include android:layout_width="match_parent" android:layout_height="@dimen/qm" layout="@layout/gf"/>
+    </LinearLayout>
+</LinearLayout>

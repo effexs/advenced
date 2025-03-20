@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vanced.product.view.CpsFeedListBannerAdLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/ad_multi_native_layout" android:tag="layout/ad_item_feed_list_banner_product_0" android:background="?attr/a0" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/ad_banner_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.vanced.product.widget.ProductAdBannerView android:id="@+id/ad_goods_banner" android:layout_width="match_parent" android:layout_height="200dp"/>
+    </FrameLayout>
+    <RelativeLayout android:id="@+id/ad_group_content" android:layout_width="match_parent" android:layout_height="74dp" android:layout_below="@+id/ad_banner_container">
+        <ImageView android:id="@+id/ad_icon" android:layout_width="38dp" android:layout_height="38dp" android:layout_marginTop="14dp" android:layout_centerVertical="true" android:layout_marginStart="12dp"/>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14sp" android:textStyle="bold" android:textColor="?attr/bt1" android:ellipsize="end" android:id="@+id/ad_headline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignTop="@+id/ad_icon" android:layout_marginStart="10dp" android:layout_marginEnd="10dp" android:layout_toStartOf="@+id/ad_call_to_action" android:layout_toEndOf="@+id/ad_icon"/>
+        <ImageView android:id="@+id/img_logo" android:layout_width="26dp" android:layout_height="16dp" android:src="@drawable/j5" android:layout_alignBottom="@+id/ad_icon" android:layout_centerVertical="true" android:layout_marginStart="10dp" android:layout_marginEnd="10dp" android:layout_toEndOf="@+id/ad_icon"/>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14sp" android:textStyle="bold" android:textColor="#ffffff" android:ellipsize="end" android:gravity="center" android:id="@+id/ad_call_to_action" android:layout_width="104dp" android:layout_height="32dp" android:text="@string/fq" android:maxLines="1" android:layout_centerInParent="true" android:layout_marginEnd="12dp" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</com.vanced.product.view.CpsFeedListBannerAdLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/llContentContainer" android:tag="layout/fragment_share_list_0" android:background="?attr/a9" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="?attr/rx" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="match_parent" android:layout_height="?attr/e" android:minHeight="@dimen/iy" android:text="@string/big" android:paddingStart="12dp" android:paddingEnd="12dp" android:translationZ="2dp"/>
+    <androidx.recyclerview.widget.RecyclerView android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

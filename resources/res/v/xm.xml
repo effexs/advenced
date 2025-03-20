@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/item_video_detail_anim_functional_botton_0" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:tag="binding_1" android:paddingTop="@dimen/oi" android:paddingBottom="@dimen/oi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="55dp">
+        <FrameLayout android:layout_width="24dp" android:layout_height="24dp">
+            <com.vanced.module.share_interface.widget.ShareAnimButton android:layout_gravity="center" android:id="@+id/btIv" android:tag="binding_2" android:layout_width="24dp" android:layout_height="24dp" app:delay_time="10000" app:display_time="3000" app:interval_time="30000" app:srcCompat="?attr/gx"/>
+        </FrameLayout>
+        <TextView android:textSize="12sp" android:id="@+id/btTv" android:background="?attr/ba8" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:includeFontPadding="false"/>
+    </LinearLayout>
+</FrameLayout>

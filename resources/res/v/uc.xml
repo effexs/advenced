@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/dialog_livechat_message_operation_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="top" android:layout_gravity="center" android:orientation="vertical" android:tag="binding_1" android:paddingTop="24dp" android:paddingBottom="18dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="21dp" android:layout_marginRight="21dp">
+        <TextView android:textSize="16sp" android:textColor="?attr/j1" android:ellipsize="end" android:gravity="start" android:id="@+id/liveChatMessageTv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginRight="24dp" android:maxLines="3"/>
+        <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@+id/operationRv" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:overScrollMode="never" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:reverseLayout="false"/>
+    </LinearLayout>
+</FrameLayout>

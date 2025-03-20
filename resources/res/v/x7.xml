@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.biomes.vanced.vooapp.views.FocusAwareCoordinator android:tag="layout/layout_activity_home_0" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toTopOf="@+id/bottomBar_guideline" app:layout_constraintTop_toTopOf="0">
+        <FrameLayout android:id="@+id/fragment_holder" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@+id/fragment_player_holder" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent" app:behavior_hideable="true" app:behavior_peekHeight="0dp" app:layout_behavior="com.biomes.vanced.vooapp.player.event.CustomBottomSheetBehavior"/>
+    </com.biomes.vanced.vooapp.views.FocusAwareCoordinator>
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@+id/bottomBar_guideline" android:tag="layout/layout_activity_home_3" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="@dimen/pj"/>
+    <FrameLayout android:id="@+id/fragmentBottomBar" android:tag="layout/layout_activity_home_4" android:background="?attr/a2" android:layout_width="match_parent" android:layout_height="@dimen/pj" android:translationZ="@dimen/i1" app:layout_constraintTop_toBottomOf="@+id/bottomBar_guideline"/>
+    <FrameLayout android:id="@+id/homeTabGuideContainer" android:tag="layout/layout_activity_home_5" android:layout_width="match_parent" android:layout_height="match_parent" android:translationZ="9dp"/>
+</merge>

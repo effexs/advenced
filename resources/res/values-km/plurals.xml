@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b">
+        <item quantity="one">ខា​ទៅមុខ %d វិនាទី</item>
+        <item quantity="other">ខា​ទៅមុខ %d វិនាទី</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="one">ខា​ថយក្រោយ %d វិនាទី</item>
+        <item quantity="other">ខា​ថយក្រោយ %d វិនាទី</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="one">ការជូនដំណឹងថ្មី %d</item>
+        <item quantity="other">ការជូនដំណឹងថ្មី %d</item>
+    </plurals>
+</resources>

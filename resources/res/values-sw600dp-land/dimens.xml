@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="p8">21sp</dimen>
+    <dimen name="gm">5sp</dimen>
+    <dimen name="gg">11sp</dimen>
+    <dimen name="gs">6dp</dimen>
+    <dimen name="g0">13sp</dimen>
+    <dimen name="g1">10sp</dimen>
+    <dimen name="g2">14sp</dimen>
+</resources>

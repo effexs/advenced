@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/item_section_config_info_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="16sp" android:textColor="?attr/bt1" android:gravity="center_vertical" android:id="@+id/tvTitle" android:background="?attr/ba7" android:layout_width="match_parent" android:layout_height="48dp" android:paddingStart="12dp" android:paddingEnd="12dp"/>
+    <View android:tag="binding_1" android:layout_width="match_parent" android:layout_height="48dp"/>
+</FrameLayout>

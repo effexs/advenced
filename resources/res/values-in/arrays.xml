@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="n">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normal</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </array>
+    <array name="m">
+        <item>Buffering</item>
+        <item>Tidak dapat memutar</item>
+        <item>Tidak bisa login</item>
+        <item>Terlalu banyak iklan</item>
+        <item>Bug iklan</item>
+        <item>Konten iklan yang tidak pantas</item>
+        <item>Gunakan aplikasi lain</item>
+    </array>
+</resources>

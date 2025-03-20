@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="n">
+        <item>أسرع بـ 0.25 مرة</item>
+        <item>أسرع بـ 0.5 مرات</item>
+        <item>أسرع بـ 0.75 مرة</item>
+        <item>عادية</item>
+        <item>أسرع بـ 1.25 مرة</item>
+        <item>أسرع بـ 1.5 مرة</item>
+        <item>أسرع بمرتين</item>
+    </array>
+    <array name="m">
+        <item>التخزين المؤقت</item>
+        <item>لا يمكن التشغيل</item>
+        <item>لا يمكن الدخول</item>
+        <item>الإعلانات كثيرة جداً</item>
+        <item>مشكلة الاعلان</item>
+        <item>محتوى إعلان غير لائق</item>
+        <item>استخدم تطبيقًا آخر</item>
+    </array>
+</resources>

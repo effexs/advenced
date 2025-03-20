@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <layer-list>
+            <item android:gravity="center" android:left="4dp" android:right="4dp">
+                <shape android:shape="oval">
+                    <solid android:color="@color/en"/>
+                    <size android:height="8.5dp" android:width="8.5dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

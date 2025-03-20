@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/webview_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.flatads.sdk.ui.view.ManagerFloatLayout android:id="@+id/download_float" android:visibility="gone" android:layout_width="64dp" android:layout_height="64dp" android:layout_marginTop="100dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView android:id="@+id/web_close" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:src="@mipmap/w" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

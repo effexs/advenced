@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/fragment_filter_condition_0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textSize="13sp" android:textStyle="bold" android:textColor="?attr/bt1" android:tag="binding_1" android:paddingLeft="12dp" android:paddingTop="10dp" android:layout_width="270dp" android:layout_height="35dp" android:paddingStart="12dp"/>
+    <com.google.android.flexbox.FlexboxLayout android:tag="binding_2" android:layout_width="252dp" android:layout_height="wrap_content" app:flexDirection="0" app:flexWrap="1"/>
+</LinearLayout>

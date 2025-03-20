@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/dialog_upgrade_guide_0" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="25dp" android:paddingEnd="25dp">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/cl_dialog" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/fl_close" android:paddingTop="4dp" android:layout_width="28dp" android:layout_height="28dp" android:paddingEnd="4dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0">
+            <androidx.appcompat.widget.AppCompatImageView android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent" app:srcCompat="@drawable/ha"/>
+            <androidx.appcompat.widget.AppCompatImageView android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent" app:srcCompat="@drawable/l7"/>
+            <TextView android:textSize="14sp" android:textColor="@color/au" android:gravity="center" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+        <View android:tag="binding_4" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="@+id/cl_content" app:layout_constraintEnd_toEndOf="@+id/cl_content" app:layout_constraintStart_toStartOf="@+id/cl_content" app:layout_constraintTop_toTopOf="@+id/cl_content"/>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/cl_content" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="60dp" app:layout_constraintTop_toTopOf="0">
+            <TextView android:textSize="14sp" android:textColor="?attr/bt1" android:gravity="center" android:id="@+id/tv_content" android:tag="binding_5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="46dp" android:lineSpacingMultiplier="1.4" android:paddingStart="24dp" android:paddingEnd="24dp" app:layout_constraintTop_toTopOf="0"/>
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#ffffff" android:tag="binding_6" android:background="@drawable/ob" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/bc6" android:paddingStart="36dp" android:paddingEnd="36dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/tv_content"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="0" app:srcCompat="@drawable/js"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="@dimen/q6">
+    <LinearLayout android:layout_gravity="top|center_vertical|center_horizontal|center" android:orientation="horizontal" android:paddingLeft="@dimen/q3" android:paddingTop="@dimen/q3" android:paddingRight="@dimen/q3" android:layout_width="match_parent" android:layout_height="@dimen/q6" android:paddingStart="@dimen/q3" android:paddingEnd="@dimen/q3" style="?attr/bbb">
+        <com.google.android.material.button.MaterialButton android:gravity="center" android:layout_gravity="top" android:id="@+id/cancel_button" android:padding="12dp" android:layout_width="@dimen/n1" android:layout_height="@dimen/n1" android:insetTop="0dp" android:insetBottom="0dp" android:contentDescription="@string/be3" app:icon="@drawable/yk" app:rippleColor="@color/nv" style="?attr/y7"/>
+        <FrameLayout android:id="@+id/mtrl_picker_header_title_and_selection" android:paddingLeft="@dimen/q8" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:paddingStart="@dimen/q8">
+            <TextView android:gravity="bottom|left|center_vertical|center_horizontal|center|start" android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/mtrl_picker_title_text" android:layout_width="match_parent" android:layout_height="wrap_content" app:firstBaselineToTopHeight="@dimen/zd" style="?attr/bbu"/>
+            <TextView android:gravity="bottom|left|center_vertical|center_horizontal|center|start" android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/mtrl_picker_header_selection_text" android:paddingBottom="@dimen/zx" android:layout_width="match_parent" android:layout_height="wrap_content" app:firstBaselineToTopHeight="@dimen/zf" app:lineHeight="@dimen/q7" style="?attr/bbp"/>
+        </FrameLayout>
+        <LinearLayout android:orientation="@integer/m" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.google.android.material.button.MaterialButton android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/confirm_button" android:layout_width="wrap_content" android:layout_height="@dimen/n1" android:text="@string/bat" android:contentDescription="@string/bat" style="?attr/y8"/>
+            <include layout="@layout/gm"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="@dimen/q4" style="?attr/y9"/>
+</merge>

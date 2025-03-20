@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/layoutBanner" android:tag="layout/layout_share_banner_0" android:layout_width="336dp" android:layout_height="wrap_content" android:minHeight="180dp" android:translationZ="2dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+    <FrameLayout android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/h5"/>
+    </FrameLayout>
+</FrameLayout>

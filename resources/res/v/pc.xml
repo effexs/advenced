@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/ad_temp_multi_squre_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.vanced.ad.ad_one.sdk.ui.template.AutoScrollRecyclerView android:id="@+id/rv_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+    <include android:id="@+id/ad_include" layout="@layout/bs"/>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/ad_reward_entrance_feed_style_banner_0" android:paddingTop="11dp" android:paddingBottom="11dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="12dp" android:paddingEnd="12dp">
+    <ImageView android:id="@+id/ad_reward_feed_entrance_icon" android:layout_width="32dp" android:layout_height="32dp" android:layout_centerVertical="true" app:srcCompat="@drawable/ze"/>
+    <TextView android:textSize="12sp" android:textStyle="bold" android:textColor="?attr/bt1" android:id="@+id/tv_entrance_banner_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="8dp" android:layout_marginEnd="20dp" android:layout_toStartOf="@+id/icon_arrow" android:layout_toEndOf="@+id/ad_reward_feed_entrance_icon"/>
+    <ImageView android:id="@+id/icon_arrow" android:layout_width="24dp" android:layout_height="24dp" android:layout_centerVertical="true" android:layout_alignParentEnd="true" app:srcCompat="?attr/hi"/>
+</RelativeLayout>

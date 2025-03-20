@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/fragment_trending_music_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/toolbar" app:layout_constraintBottom_toTopOf="@+id/tabLayout" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" layout="@layout/qc"/>
+    <FrameLayout android:id="@+id/layoutThrendingParent" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.vanced.page.list_business_interface.view.PagerSwipeRefreshLayout android:id="@+id/refreshLayout" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerView" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/aj" android:paddingEnd="@dimen/aj"/>
+        </com.vanced.page.list_business_interface.view.PagerSwipeRefreshLayout>
+    </FrameLayout>
+</LinearLayout>

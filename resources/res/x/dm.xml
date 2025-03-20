@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:label="official" android:height="24dp" android:width="24dp" android:viewportWidth="24" android:viewportHeight="24">
+    <path android:fillColor="#00000000" android:pathData="M19.951,7.981C20.152,8.158 20.262,8.399 20.277,8.646C20.292,8.891 20.215,9.142 20.042,9.341L9.673,20.592C9.494,20.785 9.255,20.89 9.011,20.903C8.767,20.915 8.518,20.836 8.32,20.662L3,15.971C2.8,15.794 2.69,15.553 2.674,15.305C2.659,15.06 2.736,14.81 2.909,14.61L13.279,3.36C13.457,3.166 13.696,3.062 13.941,3.049C14.185,3.036 14.434,3.116 14.631,3.29Z" android:strokeColor="#ffffff" android:strokeWidth="1.7" android:fillType="1"/>
+    <path android:fillColor="#00000000" android:pathData="M12,18.416L4.669,11.729" android:strokeColor="#ffffff" android:strokeWidth="1.5455" android:fillType="1"/>
+    <path android:fillColor="#ffffff" android:pathData="M22.999,20.898C22.999,21.367 22.618,21.748 22.149,21.748L8.994,21.748L8.994,21.748L9.284,20.048L22.149,20.048C22.618,20.048 22.999,20.428 22.999,20.898Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="0"/>
+</vector>

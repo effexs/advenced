@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/qf" android:visibility="invisible" android:layout_width="256.6641dp" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/flat_rl_top" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/flat_iv_icon" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:layout_marginTop="8.67dp" android:src="@mipmap/s"/>
+        <TextView android:textSize="13dp" android:textStyle="bold" android:textColor="#ff000000" android:ellipsize="end" android:id="@+id/flat_tv_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.33dp" android:layout_marginTop="9.33dp" android:layout_marginRight="34.67dp" android:maxLines="2" android:layout_toRightOf="@+id/flat_iv_icon"/>
+    </RelativeLayout>
+    <com.flatads.sdk.core.domain.ui.widget.view.CustomImageView android:id="@+id/flat_iv_content" android:background="#ffe9e9e9" android:layout_width="226.67dp" android:layout_height="80dp" android:layout_marginLeft="15dp" android:layout_marginTop="11.67dp" android:layout_marginRight="15dp" android:layout_below="@+id/flat_rl_top"/>
+    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:id="@+id/flat_tv_btn" android:background="@drawable/qp" android:layout_width="226.67dp" android:layout_height="33.33dp" android:layout_marginLeft="15dp" android:layout_marginTop="6.67dp" android:layout_marginRight="15dp" android:layout_marginBottom="9.67dp" android:text="Get it" android:maxLines="1" android:layout_below="@+id/flat_iv_content"/>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/flat_iv_close" android:layout_width="16.67dp" android:layout_height="16.67dp" android:layout_marginTop="10dp" android:src="@mipmap/v" android:layout_marginStart="230dp"/>
+</RelativeLayout>

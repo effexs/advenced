@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/fragment_home_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/toolbarContainer" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@+id/toolbar" app:layout_constraintBottom_toTopOf="@+id/tabLayout" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" layout="@layout/qc"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/fragment_holder" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

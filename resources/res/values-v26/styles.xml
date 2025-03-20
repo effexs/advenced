@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="pc">
+    </style>
+    <style name="p2">
+    </style>
+    <style name="lk">
+        <item name="ob">?unknown_attr_ref: 1010543</item>
+    </style>
+    <style name="lv">
+        <item name="ob">?unknown_attr_ref: 1010543</item>
+    </style>
+    <style name="lc">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="?0x1010540">true</item>
+    </style>
+    <style name="aj">
+    </style>
+    <style name="kr">
+        <item name="android:background">?attr/ow</item>
+        <item name="android:stateListAnimator">@animator/u</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="?0x1010540">true</item>
+    </style>
+    <style name="mbridge_transparent_common_activity_style">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+    <style name="mbridge_transparent_theme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

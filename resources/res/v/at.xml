@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/fragment_config_info_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/d5"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="48dp">
+        <EditText android:textSize="16sp" android:textColor="?attr/bt1" android:textColorHint="#cc868686" android:tag="binding_1" android:layout_width="0dp" android:layout_height="match_parent" android:hint="Section Key" android:layout_weight="1" android:paddingStart="12dp" android:paddingEnd="12dp" android:layout_marginStart="12dp" android:layout_marginEnd="6dp"/>
+        <EditText android:textSize="16sp" android:textColor="?attr/bt1" android:textColorHint="#cc868686" android:tag="binding_2" android:layout_width="0dp" android:layout_height="match_parent" android:hint="Function Key" android:layout_weight="1" android:paddingStart="12dp" android:paddingEnd="12dp" android:layout_marginStart="6dp" android:layout_marginEnd="6dp"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerView" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

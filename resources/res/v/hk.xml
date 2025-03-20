@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:paddingTop="9dp" android:paddingBottom="9dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/ivChannelImg" android:saveEnabled="false" android:layout_width="48dp" android:layout_height="48dp" app:civ_border_color="@android:color/white" app:civ_border_width="2.4dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:srcCompat="@drawable/z0"/>
+    <Space android:id="@+id/space" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintEnd_toEndOf="@+id/ivChannelImg" app:layout_constraintStart_toStartOf="@+id/ivChannelImg" app:layout_constraintTop_toBottomOf="@+id/ivChannelImg"/>
+    <FrameLayout android:id="@+id/llSubscribeChannel" android:clipChildren="false" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@+id/space" app:layout_constraintEnd_toEndOf="@+id/ivChannelImg" app:layout_constraintStart_toStartOf="@+id/ivChannelImg" app:layout_constraintTop_toTopOf="@+id/space">
+        <View android:layout_gravity="top|center_vertical|center_horizontal|center" android:background="@drawable/bu2" android:layout_width="20dp" android:layout_height="20dp"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/ivSubscribeChannel" android:clickable="false" android:saveEnabled="false" android:layout_width="12dp" android:layout_height="12dp" app:srcCompat="@drawable/sd"/>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

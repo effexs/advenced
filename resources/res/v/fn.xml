@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/layout_copy_form_edit_item_0" android:paddingTop="10dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="30dp" android:paddingEnd="30dp">
+    <androidx.appcompat.widget.AppCompatEditText android:textSize="16sp" android:textColor="?attr/bt1" android:textColorHint="#ffa9a9ac" android:id="@+id/et_input" android:tag="binding_1" android:background="@drawable/ep" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:textCursorDrawable="@drawable/xp" android:paddingStart="14dp" android:paddingEnd="14dp" style="@style/oj"/>
+</LinearLayout>

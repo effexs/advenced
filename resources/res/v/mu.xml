@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/list_notification_comments_header_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/v_info" android:tag="binding_1" android:background="?attr/boe" android:paddingTop="17dp" android:paddingBottom="12dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/iv_info_image" android:tag="binding_2" android:layout_width="66dp" android:layout_height="36dp" android:scaleType="centerCrop" android:layout_marginEnd="12dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="13sp" android:ellipsize="end" android:id="@+id/tv_info_title" android:tag="binding_3" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="36dp" android:maxLines="2" android:layout_marginStart="12dp" android:layout_marginEnd="12dp" app:layout_constraintEnd_toStartOf="@+id/iv_info_image" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include android:id="@+id/v_comment" layout="@layout/m9"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/v_replies_area" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="60dp">
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textSize="11sp" android:textColor="@color/lw" android:id="@+id/tv_highlighted_header" android:tag="binding_4" android:background="@drawable/ou" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sb" android:paddingStart="6dp" android:paddingEnd="6dp"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/v_replies" android:tag="binding_5" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="13sp" android:textColor="@color/lw" android:id="@+id/tv_reply_count" android:tag="binding_6" android:background="?attr/ba8" android:paddingBottom="6dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:textAllCaps="true" android:layout_marginStart="60dp"/>
+    <View android:background="?attr/boe" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="10dp"/>
+</LinearLayout>

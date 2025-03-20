@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/fragment_trending_more_0" android:background="?attr/a0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/tw"/>
+    <com.vanced.page.list_business_interface.view.PagerSwipeRefreshLayout android:id="@+id/refreshLayout" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerView" android:paddingTop="8dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.vanced.page.list_business_interface.view.PagerSwipeRefreshLayout>
+</LinearLayout>

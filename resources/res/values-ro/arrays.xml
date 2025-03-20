@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="n">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normală</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </array>
+    <array name="m">
+        <item>Tamponare</item>
+        <item>Nu se poate juca</item>
+        <item>Nu se poate autentifica</item>
+        <item>Prea multe reclame</item>
+        <item>Eroare de reclame</item>
+        <item>Conținut nepotrivit al reclamei</item>
+        <item>Folosiți o altă aplicație</item>
+    </array>
+</resources>

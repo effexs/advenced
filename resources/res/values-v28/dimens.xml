@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ng">0.24</dimen>
+    <dimen name="nk">0.4</dimen>
+    <dimen name="nv">0.4</dimen>
+    <dimen name="nc">0.24</dimen>
+    <dimen name="nj">0.12</dimen>
+    <dimen name="nw">0.2</dimen>
+    <dimen name="ny">0.2</dimen>
+    <dimen name="n0">0.12</dimen>
+</resources>

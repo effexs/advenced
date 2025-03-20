@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/item_video_detail_functional_botton_widget_0" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/buttonRoot_wrap" android:tag="binding_1" android:background="?attr/ba8" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="12sp" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/buttonRoot" android:tag="binding_2" android:paddingTop="@dimen/oi" android:paddingBottom="@dimen/oi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="55dp"/>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/iv_widget" android:layout_width="20dp" android:layout_height="20dp"/>
+    </LinearLayout>
+</FrameLayout>

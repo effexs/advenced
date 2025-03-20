@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="n">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Κανονική</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </array>
+    <array name="m">
+        <item>Προσωρινή αποθήκευση</item>
+        <item>Δεν μπορεί να παίξει</item>
+        <item>Δεν μπορείτε να συνδεθείτε</item>
+        <item>Πάρα πολλές διαφημίσεις</item>
+        <item>Σφάλμα διαφημίσεων</item>
+        <item>Ακατάλληλο περιεχόμενο διαφήμισης</item>
+        <item>Χρησιμοποιήστε άλλη εφαρμογή</item>
+    </array>
+</resources>

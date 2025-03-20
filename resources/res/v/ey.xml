@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fragment_account_manager_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="vertical" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/d5"/>
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="75dp">
+            <ImageView android:id="@+id/ivAvatar" android:tag="binding_3" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginStart="@dimen/o1" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+            <FrameLayout android:tag="binding_4" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+                <include android:layout_gravity="center" android:layout_width="25dp" android:layout_height="25dp" layout="@layout/np"/>
+            </FrameLayout>
+            <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="?attr/bt1" android:ellipsize="end" android:id="@+id/tvName" android:tag="binding_5" android:layout_width="0dp" android:layout_height="wrap_content" android:lines="1" android:includeFontPadding="false" android:layout_marginStart="@dimen/o1" android:layout_marginEnd="@dimen/o1" app:layout_constraintBottom_toTopOf="@+id/tvMail" app:layout_constraintStart_toEndOf="@+id/ivAvatar" app:layout_constraintTop_toTopOf="@+id/ivAvatar" app:layout_constraintVertical_chainStyle="2"/>
+            <TextView android:textSize="12sp" android:textColor="#888888" android:ellipsize="end" android:id="@+id/tvMail" android:tag="binding_6" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:lines="1" android:includeFontPadding="false" android:layout_marginStart="@dimen/o1" android:layout_marginEnd="@dimen/o1" app:layout_constraintBottom_toBottomOf="@+id/ivAvatar" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@+id/ivAvatar" app:layout_constraintTop_toBottomOf="@+id/tvName"/>
+            <View android:background="?attr/o9" android:layout_width="0dp" android:layout_height="1dp" android:layout_marginStart="@dimen/o1" android:layout_marginEnd="@dimen/o1" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.google.android.flexbox.FlexboxLayout android:orientation="vertical" android:tag="binding_7" android:layout_width="match_parent" android:layout_height="wrap_content" app:flexDirection="2" app:flexWrap="0"/>
+    </LinearLayout>
+</FrameLayout>

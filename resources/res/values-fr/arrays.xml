@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="n">
+        <item>x 0,25</item>
+        <item>x 0,5</item>
+        <item>x 0,75</item>
+        <item>Normal</item>
+        <item>x 1,25</item>
+        <item>x 1,5</item>
+        <item>x 2</item>
+    </array>
+    <array name="m">
+        <item>Amortisseur</item>
+        <item>Incapable de lire</item>
+        <item>Incapable de connecter</item>
+        <item>Trop de pubs</item>
+        <item>Problème de pub</item>
+        <item>Contenu publicitaire inapproprié</item>
+        <item>Utiliser une autre appli</item>
+    </array>
+</resources>

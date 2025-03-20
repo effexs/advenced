@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:background="#cc010101" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/fl_left" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@+id/fl_center" app:layout_constraintHorizontal_weight="1" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="105dp" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/q5"/>
+            <TextView android:textSize="16sp" android:textColor="#ffffff" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:text="@string/bwr"/>
+            <TextView android:textSize="12sp" android:textColor="?attr/oy" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/bwx"/>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/fl_center" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toStartOf="@+id/fl_right" app:layout_constraintHorizontal_weight="2" app:layout_constraintStart_toEndOf="@+id/fl_left" app:layout_constraintTop_toTopOf="@+id/fl_left">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="105dp" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/q6"/>
+            <TextView android:textSize="16sp" android:textColor="#ffffff" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:text="@string/bwf"/>
+            <TextView android:textSize="12sp" android:textColor="?attr/oy" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/bwt"/>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/fl_right" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintHorizontal_weight="1" app:layout_constraintStart_toEndOf="@+id/fl_center" app:layout_constraintTop_toTopOf="@+id/fl_left">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="105dp" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/q7"/>
+            <TextView android:textSize="16sp" android:textColor="#ffffff" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:text="@string/bwn"/>
+            <TextView android:textSize="12sp" android:textColor="?attr/oy" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/bwh"/>
+        </LinearLayout>
+    </FrameLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/close_guide" android:padding="12dp" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginBottom="36dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:srcCompat="@drawable/vx"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

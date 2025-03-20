@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="n">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normal</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </array>
+    <array name="m">
+        <item>Búfer</item>
+        <item>No puedo jugar</item>
+        <item>No puedo iniciar sesión</item>
+        <item>Demasiados anuncios</item>
+        <item>Error de anuncios</item>
+        <item>Contenido publicitario inapropiado</item>
+        <item>Usar otra aplicación</item>
+    </array>
+</resources>

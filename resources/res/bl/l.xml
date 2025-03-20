@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/settings_nav_graph" app:startDestination="@+id/mainSettingsFragment">
+    <fragment android:label="MainSettingsFragment" android:name="com.vanced.module.settings_impl.main.MainSettingsFragment" android:id="@+id/mainSettingsFragment">
+        <action android:id="@+id/action_mainSettingsFragment_to_generalFragment" app:destination="@+id/generalFragment"/>
+        <action android:id="@+id/action_mainSettingsFragment_to_historySettingsFragment" app:destination="@+id/historySettingsFragment"/>
+        <action android:id="@+id/action_mainSettingsFragment_to_contentSettingsFragment" app:destination="@+id/contentSettingsFragment"/>
+        <action android:id="@+id/action_mainSettingsFragment_to_notificationSettingsFragment" app:destination="@+id/notificationSettingsFragment"/>
+        <action android:id="@+id/action_mainSettingsFragment_to_debugSettingsFragment" app:destination="@+id/debugSettingsFragment"/>
+        <action android:id="@+id/action_open_generalFragment_directly" app:destination="@+id/generalFragment" app:popUpTo="@+id/mainSettingsFragment" app:popUpToInclusive="true"/>
+        <action android:id="@+id/action_open_historySettingsFragment_directly" app:destination="@+id/historySettingsFragment" app:popUpTo="@+id/mainSettingsFragment" app:popUpToInclusive="true"/>
+        <action android:id="@+id/action_open_contentSettingsFragment_directly" app:destination="@+id/contentSettingsFragment" app:popUpTo="@+id/mainSettingsFragment" app:popUpToInclusive="true"/>
+        <action android:id="@+id/action_open_notificationSettingsFragment_directly" app:destination="@+id/notificationSettingsFragment" app:popUpTo="@+id/mainSettingsFragment" app:popUpToInclusive="true"/>
+        <action android:id="@+id/action_open_debugSettingsFragment_directly" app:destination="@+id/debugSettingsFragment" app:popUpTo="@+id/mainSettingsFragment" app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment android:label="GeneralFragment" android:name="com.vanced.module.settings_impl.general.GeneralSettingsFragment" android:id="@+id/generalFragment">
+        <action android:id="@+id/action_generalFragment_to_optionsListFragment" app:destination="@+id/optionsListFragment"/>
+    </fragment>
+    <fragment android:label="OptionsListFragment" android:name="com.vanced.module.settings_impl.options.OptionsListFragment" android:id="@+id/optionsListFragment">
+        <argument android:name="itemBean" app:argType="com.vanced.module.settings_impl.bean.IItemBean"/>
+    </fragment>
+    <fragment android:label="EditFragment" android:name="com.vanced.module.settings_impl.edit.EditFragment" android:id="@+id/editFragment">
+        <argument android:name="itemBean" app:argType="com.vanced.module.settings_impl.bean.IItemBean"/>
+    </fragment>
+    <fragment android:label="HistorySettingsFragment" android:name="com.vanced.module.settings_impl.history.HistorySettingsFragment" android:id="@+id/historySettingsFragment"/>
+    <fragment android:label="ContentSettingsFragment" android:name="com.vanced.module.settings_impl.content.ContentSettingsFragment" android:id="@+id/contentSettingsFragment">
+        <action android:id="@+id/action_contentSettingsFragment_to_optionsListFragment" app:destination="@+id/optionsListFragment"/>
+        <action android:id="@+id/action_contentSettingsFragment_to_editFragment" app:destination="@+id/editFragment"/>
+    </fragment>
+    <fragment android:label="NotificationSettingsFragment" android:name="com.vanced.module.settings_impl.notification.NotificationSettingsFragment" android:id="@+id/notificationSettingsFragment"/>
+    <fragment android:label="DebugSettingsFragment" android:name="com.vanced.module.settings_impl.debug.DebugSettingsFragment" android:id="@+id/debugSettingsFragment">
+        <action android:id="@+id/action_debugSettingsFragment_to_appInfoSettingsFragment" app:destination="@+id/appInfoSettingsFragment"/>
+        <action android:id="@+id/action_debugSettingsFragment_to_configSettingsFragment" app:destination="@+id/configSettingsFragment"/>
+        <action android:id="@+id/action_debugSettingsFragment_to_databaseSettingFragment" app:destination="@+id/databaseSettingsFragment"/>
+        <action android:id="@+id/action_debugSettingsFragment_to_buriedProbSettingFragment" app:destination="@+id/buriedProbSettingFragment"/>
+        <action android:id="@+id/action_debugSettingsFragment_to_privateDirectorySettingFragment" app:destination="@+id/privateDirectorySettingFragment"/>
+        <action android:id="@+id/action_debugSettingsFragment_to_privateDirectoryMapSettingFragment" app:destination="@+id/privateDirectoryMapSettingFragment"/>
+        <action android:id="@+id/action_debugSettingsFragment_to_networkSettingsFragment" app:destination="@+id/networkSettingsFragment"/>
+        <action android:id="@+id/action_debugSettingsFragment_to_pushSettingsFragment" app:destination="@+id/pushSettingsFragment"/>
+        <action android:id="@+id/action_debugSettingsFragment_to_coinsSettingFragment" app:destination="@+id/coinsSettingFragment"/>
+        <action android:id="@+id/action_debugSettingsFragment_to_otherSettingsFragment" app:destination="@+id/otherSettingsFragment"/>
+    </fragment>
+    <fragment android:label="AppInfoSettingsFragment" android:name="com.vanced.module.settings_impl.debug.info.AppInfoSettingsFragment" android:id="@+id/appInfoSettingsFragment"/>
+    <fragment android:label="ConfigSettingsFragment" android:name="com.vanced.module.settings_impl.debug.config.ConfigSettingsFragment" android:id="@+id/configSettingsFragment">
+        <action android:id="@+id/action_configSettingsFragment_to_optionsListFragment" app:destination="@+id/optionsListFragment"/>
+        <action android:id="@+id/action_configSettingsFragment_to_configInfoFragment" app:destination="@+id/configInfoFragment"/>
+    </fragment>
+    <fragment android:label="BuriedProbSettingFragment" android:name="com.vanced.module.settings_impl.debug.buried.BuriedProbSettingFragment" android:id="@+id/buriedProbSettingFragment"/>
+    <fragment android:label="PrivateDirectorySettingFragment" android:name="com.vanced.module.settings_impl.debug.private_directory.PrivateDirectorySettingFragment" android:id="@+id/privateDirectorySettingFragment"/>
+    <fragment android:label="PrivateDirectoryMapSettingFragment" android:name="com.vanced.module.settings_impl.debug.private_directory.PrivateDirectoryMapSettingFragment" android:id="@+id/privateDirectoryMapSettingFragment"/>
+    <fragment android:label="DatabaseSettingFragment" android:name="com.vanced.module.settings_impl.debug.db.DatabaseSettingFragment" android:id="@+id/databaseSettingsFragment"/>
+    <fragment android:label="NetworkSettingsFragment" android:name="com.vanced.module.settings_impl.debug.network.NetworkSettingsFragment" android:id="@+id/networkSettingsFragment"/>
+    <fragment android:label="PushSettingsFragment" android:name="com.vanced.module.settings_impl.debug.push.PushSettingsFragment" android:id="@+id/pushSettingsFragment"/>
+    <fragment android:label="OtherSettingsFragment" android:name="com.vanced.module.settings_impl.debug.other.OtherSettingsFragment" android:id="@+id/otherSettingsFragment"/>
+    <fragment android:label="ConfigInfoFragment" android:name="com.vanced.module.settings_impl.debug.config.info.ConfigInfoFragment" android:id="@+id/configInfoFragment"/>
+    <fragment android:label="CoinsSettingFragment" android:name="com.vanced.module.settings_impl.debug.coins.CoinsSettingFragment" android:id="@+id/coinsSettingFragment"/>
+</navigation>

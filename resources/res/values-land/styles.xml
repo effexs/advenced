@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="kd">
+        <item name="bfr">1</item>
+        <item name="bfv">1</item>
+    </style>
+    <style name="ct">
+        <item name="android:textAppearance">?attr/btq</item>
+        <item name="android:textColor">?attr/og</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/i</item>
+    </style>
+</resources>

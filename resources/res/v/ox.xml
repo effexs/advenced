@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/fragment_mini_setting_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/toolbar" android:tag="binding_1" android:background="@color/m1" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="?attr/e" android:layout_marginBottom="0dp" android:minHeight="@dimen/iy" android:translationZ="@dimen/i1">
+        <ImageView android:id="@+id/ivBack" android:padding="@dimen/og" android:layout_width="@dimen/ov" android:layout_height="@dimen/ov" app:layout_constraintBottom_toBottomOf="@+id/toolbar" app:layout_constraintStart_toStartOf="@+id/toolbar" app:layout_constraintTop_toTopOf="@+id/toolbar" app:srcCompat="@drawable/cs"/>
+        <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/m0" android:ellipsize="end" android:gravity="start" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bm1" android:maxLines="1" android:lines="1" app:layout_constraintBottom_toBottomOf="@+id/toolbar" app:layout_constraintEnd_toEndOf="@+id/toolbar" app:layout_constraintStart_toEndOf="@+id/ivBack" app:layout_constraintTop_toTopOf="@+id/toolbar"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_setting" android:background="@color/my" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

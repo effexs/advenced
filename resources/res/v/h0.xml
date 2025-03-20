@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:tag="layout/layout_subscription_header_item_0" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="50dp" android:layout_height="50dp">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/iv_avatar" android:tag="binding_1" android:layout_width="50dp" android:layout_height="50dp" app:srcCompat="@drawable/z0"/>
+        <View android:tag="binding_2" android:background="?attr/ux" android:layout_width="12dp" android:layout_height="12dp" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"/>
+        <View android:tag="binding_3" android:background="?attr/ur" android:layout_width="12dp" android:layout_height="12dp" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="12sp" android:textColor="#888888" android:ellipsize="end" android:gravity="center" android:id="@+id/tv_channel" android:tag="binding_4" android:layout_width="56dp" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:maxLines="1"/>
+</LinearLayout>

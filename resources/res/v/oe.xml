@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/layoutMeToolbarEntrance" android:tag="layout/fragment_me_entrance_0" android:background="?attr/ba8" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:layout_gravity="center" android:id="@+id/layoutAccount" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <View android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:tag="binding_1" android:background="@drawable/gy" android:layout_width="6dp" android:layout_height="6dp" android:layout_marginTop="7dp" android:layout_marginEnd="3dp"/>
+    <TextView android:textSize="10dp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/tvNotificationCount" android:tag="binding_2" android:background="@drawable/et" android:layout_width="wrap_content" android:layout_height="16dp" android:layout_marginTop="8dp" android:minWidth="16dp" android:paddingStart="4dp" android:paddingEnd="4dp" app:srcCompat="?attr/mp"/>
+</FrameLayout>

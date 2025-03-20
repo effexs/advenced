@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/ad_reward_end_pop_normal_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="25dp" android:layout_marginEnd="25dp">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="71dp">
+        <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="?attr/bt1" android:layout_gravity="center_horizontal" android:id="@+id/ad_reward_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="80dp" android:layout_marginStart="25dp" android:layout_marginEnd="25dp"/>
+        <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="?attr/bt1" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/ad_reward_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="26dp" android:layout_marginStart="15dp" android:layout_marginEnd="15dp"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/ad_reward_pop_icon" android:layout_width="match_parent" android:layout_height="134dp" android:src="@drawable/zr"/>
+    <ImageView android:id="@+id/btn_close" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="27dp" android:layout_alignParentEnd="true" app:srcCompat="@drawable/zf"/>
+</RelativeLayout>

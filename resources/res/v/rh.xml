@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/video_item_detail" android:tag="layout/fragment_video_detail_0" android:background="?attr/bhy" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/detail_thumbnail_root_layout" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/vk"/>
+    <include android:id="@+id/stub_comment_tab" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="46dp" android:layout_below="@+id/detail_thumbnail_root_layout" layout="@layout/vz"/>
+    <ViewStub android:id="@+id/stub_ad" android:layout="@layout/vq" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignTop="@+id/detail_thumbnail_root_layout" android:layout_alignBottom="@+id/detail_thumbnail_root_layout"/>
+    <ViewStub android:id="@+id/stub_vip_speed" android:layout="@layout/m0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="34dp" android:layout_alignBottom="@+id/detail_thumbnail_root_layout" android:layout_centerHorizontal="true"/>
+    <ViewStub android:id="@+id/stub_playlist_info" android:layout="@layout/vc" android:inflatedId="@+id/stub_playlist_info" android:layout_width="match_parent" android:layout_height="46dp" android:layout_below="@+id/stub_comment_tab"/>
+    <FrameLayout android:id="@+id/watch_panel" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/stub_playlist_info">
+        <com.vanced.module.video_play_detail_impl.widget.VideoDetailRecyclerView android:id="@+id/watch_list" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/ivScrollToTop" android:background="?attr/um" android:padding="6dp" android:visibility="gone" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginBottom="32dp" android:layout_marginEnd="16dp" app:srcCompat="@drawable/zv"/>
+        <include android:id="@+id/relatedVideoTab" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/mt"/>
+        <include android:id="@+id/error_panel" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gz" layout="@layout/lz"/>
+        <View android:id="@+id/skeletonShadow" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="50dp"/>
+    </FrameLayout>
+    <androidx.fragment.app.FragmentContainerView android:id="@+id/v_playlist_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:id="@+id/v_playlist_info_shadow" android:background="?attr/bzg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="2dp" android:layout_below="@+id/stub_playlist_info"/>
+    <FrameLayout android:id="@+id/panel_wrapper" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.fragment.app.FragmentContainerView android:id="@+id/v_comments_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <androidx.fragment.app.FragmentContainerView android:id="@+id/v_livechat_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <ViewStub android:id="@+id/stub_mini_player" android:layout="@layout/vg" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/stub_guide" android:layout="@layout/vn" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/stub_multi_ad" android:background="@color/dr" android:layout="@layout/fd" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/stub_comment_tab"/>
+</RelativeLayout>

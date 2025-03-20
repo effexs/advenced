@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vanced.ad.adbusiness.multi.MultiCompatNativeBigLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/ad_multi_native_layout" android:tag="layout/ad_item_multi_comapt_native_big_0" android:background="?attr/a0" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.vanced.ad.ad_sdk.ui.NativeAdLayout android:id="@+id/ad_native_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/ad_native" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:id="@+id/layout_title" android:layout_width="match_parent" android:layout_height="66dp">
+                <FrameLayout android:id="@+id/ad_icon_layout" android:layout_width="40dp" android:layout_height="40dp" android:layout_centerVertical="true" android:layout_marginStart="12dp">
+                    <ImageView android:id="@+id/ad_icon" android:layout_width="40dp" android:layout_height="40dp"/>
+                </FrameLayout>
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="14sp" android:textStyle="bold" android:textColor="?attr/bt1" android:ellipsize="end" android:id="@+id/ad_headline" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignTop="@+id/ad_icon_layout" android:layout_marginStart="10dp" android:layout_marginEnd="80dp" android:layout_toEndOf="@+id/ad_icon_layout"/>
+                <ImageView android:id="@+id/ad_logo" android:layout_width="26dp" android:layout_height="16dp" android:src="@drawable/j5" android:layout_alignBottom="@+id/ad_icon_layout" android:layout_marginStart="10dp" android:layout_toEndOf="@+id/ad_icon_layout"/>
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginEnd="4dp" android:layout_alignParentEnd="true">
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="12sp" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/ad_count_down" android:background="@drawable/lf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true"/>
+                    <ImageView android:id="@+id/ad_interact_action" android:padding="5dp" android:layout_width="30dp" android:layout_height="30dp" android:layout_centerInParent="true" android:layout_marginStart="4dp" android:layout_toEndOf="@+id/ad_count_down" app:srcCompat="?attr/hd"/>
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/rl_goods_item" android:background="?attr/ue" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/ad_item_detail" android:layout_below="@+id/layout_title">
+                <FrameLayout android:id="@+id/ad_media_view_layout" android:tag="binding_1" android:padding="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_marginStart="10dp" android:layout_marginEnd="10dp"/>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/ad_item_detail" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="12sp" android:textStyle="bold" android:textColor="?attr/bt1" android:ellipsize="end" android:gravity="start" android:id="@+id/ad_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:maxLines="2" android:lineSpacingExtra="2dp" android:layout_marginStart="12dp" android:layout_marginEnd="12dp"/>
+                <androidx.appcompat.widget.AppCompatButton android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/ad_call_to_action" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginTop="12dp" android:layout_marginBottom="14dp" android:layout_marginStart="12dp" android:layout_marginEnd="12dp"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </com.vanced.ad.ad_sdk.ui.NativeAdLayout>
+</com.vanced.ad.adbusiness.multi.MultiCompatNativeBigLayout>

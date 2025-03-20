@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/overlayRoot" android:tag="layout/player_pager_overlay_0" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/playbackControlRoot" android:background="@color/i9" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <View android:layout_gravity="top" android:id="@+id/playerTopShadow" android:background="@drawable/bb7" android:layout_width="match_parent" android:layout_height="30dp"/>
+            <View android:layout_gravity="bottom" android:id="@+id/playerBottomShadow" android:background="@drawable/bb6" android:layout_width="match_parent" android:layout_height="30dp"/>
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@+id/ivPlayPause" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </FrameLayout>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/ivSound" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginTop="8dp" android:layout_marginEnd="20dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <TextView android:textSize="10sp" android:textColor="#ffffff" android:id="@+id/tvDuration" android:tag="binding_1" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:paddingStart="4dp" android:paddingEnd="4dp" android:layout_marginEnd="8dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

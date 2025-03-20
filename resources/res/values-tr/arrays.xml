@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="n">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normal</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </array>
+    <array name="m">
+        <item>Ara belleğe alınıyor</item>
+        <item>Oynayamıyor</item>
+        <item>Giriş yapamıyorum</item>
+        <item>Çok fazla reklam</item>
+        <item>Reklam hatası</item>
+        <item>Uygunsuz reklam içeriği</item>
+        <item>Başka bir uygulama kullan</item>
+    </array>
+</resources>

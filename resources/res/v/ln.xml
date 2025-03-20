@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginTop="6dp">
+    <ImageView android:id="@+id/icon" android:background="@mipmap/b7" android:layout_width="60dp" android:layout_height="60dp"/>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_weight="1">
+        <TextView android:textSize="16sp" android:textColor="#000" android:id="@+id/name" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="appName" android:maxLines="1"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="18dp" android:layout_marginTop="4dp">
+            <TextView android:textSize="10sp" android:id="@+id/downloadSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="--M/--M" android:layout_alignParentBottom="true"/>
+            <TextView android:textSize="10sp" android:id="@+id/netSpeed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="---K/s" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <com.flatads.sdk.ui.view.NumberProgressBar android:id="@+id/pbProgress" android:layout_width="match_parent" android:layout_height="wrap_content" app:progress_reached_bar_height="1.5dp" app:progress_reached_color="@color/p8" app:progress_text_color="@color/p8" app:progress_text_size="10sp" app:progress_unreached_bar_height="0.75dp" app:progress_unreached_color="#cccccc"/>
+    </LinearLayout>
+    <TextView android:textSize="16sp" android:textColor="#fff" android:gravity="center" android:layout_gravity="center" android:id="@+id/start" android:background="@color/p8" android:layout_width="80dp" android:layout_height="40dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:text="download"/>
+</LinearLayout>

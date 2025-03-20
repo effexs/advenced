@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/video_detail_guide_popup_0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/cl_tips" android:tag="binding_1" android:layout_width="245dp" android:layout_height="wrap_content">
+        <View android:tag="binding_2" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="17dp" android:paddingBottom="17dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20dp" android:paddingEnd="20dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="?attr/bt3" android:id="@+id/tv_title" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bwz" android:layout_marginEnd="18dp" app:layout_constraintEnd_toStartOf="@+id/tv_step" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+            <TextView android:textSize="12sp" android:textColor="?attr/bt5" android:id="@+id/tv_step" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2/3" app:layout_constraintBottom_toBottomOf="@+id/tv_title" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="@+id/tv_title"/>
+            <TextView android:textSize="14sp" android:textColor="?attr/bt4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:text="@string/bwq" app:layout_constraintTop_toBottomOf="@+id/tv_title"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="98dp">
+        <androidx.constraintlayout.widget.ConstraintLayout android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp">
+            <View android:tag="binding_4" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+            <TextView android:textSize="12sp" android:textColor="?attr/oy" android:gravity="center" android:id="@+id/tv_popup_btn" android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="@dimen/gt" android:layout_height="@dimen/gx" android:text="@string/xc" app:drawableTopCompat="@drawable/kw" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="0" app:srcCompat="@drawable/zi"/>
+    </FrameLayout>
+</LinearLayout>

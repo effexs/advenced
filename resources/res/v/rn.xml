@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fragment_user_assets_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/qc"/>
+        <FrameLayout android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@+id/refreshLayout" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="match_parent">
+                <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerView" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+            <include android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="66dp" layout="@layout/nl"/>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

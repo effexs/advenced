@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="pc">
+    </style>
+    <style name="p2">
+    </style>
+    <style name="la">
+        <item name="android:backgroundDimAmount">0.32</item>
+        <item name="android:checkedTextViewStyle">@style/vd</item>
+        <item name="?0x1010571">@null</item>
+        <item name="bm">@style/xe</item>
+        <item name="lf">@style/vr</item>
+        <item name="lt">@style/vr</item>
+        <item name="lq">@style/vx</item>
+        <item name="lz">@style/vr</item>
+        <item name="yj">@style/xa</item>
+    </style>
+    <style name="lw">
+        <item name="tu">?unknown_attr_ref: 1010571</item>
+    </style>
+    <style name="ly">
+        <item name="tu">?unknown_attr_ref: 1010571</item>
+    </style>
+</resources>

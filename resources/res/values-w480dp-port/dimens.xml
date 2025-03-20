@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="qg">0dp</dimen>
+    <dimen name="qv">22dp</dimen>
+    <dimen name="qc">48dp</dimen>
+    <dimen name="qy">48dp</dimen>
+    <dimen name="q0">48dp</dimen>
+    <dimen name="zl">0dp</dimen>
+</resources>

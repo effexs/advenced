@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/settings_nav_graph" app:startDestination="@+id/mainOptionsFragment">
+    <fragment android:label="MoreOptionsMainFragment" android:name="com.vanced.module.video_play_detail_impl.more.MoreOptionsMainFragment" android:id="@+id/mainOptionsFragment">
+        <action android:id="@+id/action_mainOptionsFragment_to_captionFragment" app:destination="@+id/captionFragment"/>
+        <action android:id="@+id/action_mainOptionsFragment_to_timerFragment" app:destination="@+id/timerFragment"/>
+    </fragment>
+    <fragment android:label="MoreOptionsCaptionFragment" android:name="com.vanced.module.video_play_detail_impl.more.MoreOptionsCaptionFragment" android:id="@+id/captionFragment"/>
+    <fragment android:label="MoreOptionsTimerFragment" android:name="com.vanced.module.video_play_detail_impl.more.MoreOptionsTimerFragment" android:id="@+id/timerFragment">
+        <action android:id="@+id/action_timerFragment_to_timerCustomFragment" app:destination="@+id/timerCustomFragment"/>
+    </fragment>
+    <fragment android:label="MoreOptionsTimerCustomFragment" android:name="com.vanced.module.video_play_detail_impl.more.MoreOptionsTimerCustomFragment" android:id="@+id/timerCustomFragment"/>
+</navigation>

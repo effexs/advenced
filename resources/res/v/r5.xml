@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/rl_goods_item" android:tag="layout/item_goods_small_plenty_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/rl_goods_img" android:layout_width="54dp" android:layout_height="54dp" android:layout_centerHorizontal="true">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/img_goods" android:tag="binding_1" android:layout_width="54dp" android:layout_height="54dp" android:scaleType="fitXY"/>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="12sp" android:textColor="#ffffff" android:ellipsize="middle" android:gravity="center" android:id="@+id/tv_discount" android:tag="binding_2" android:background="@drawable/ex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentBottom="true" android:paddingStart="6dp" android:paddingEnd="4dp" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="12sp" android:textColor="?attr/bt0" android:ellipsize="end" android:id="@+id/tv_price" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:maxLines="1" android:layout_below="@+id/rl_goods_img" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

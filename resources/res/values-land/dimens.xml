@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="u">48dp</dimen>
+    <dimen name="pm">12dp</dimen>
+    <dimen name="pg">14dp</dimen>
+    <dimen name="p8">18sp</dimen>
+    <dimen name="uv">12dp</dimen>
+    <dimen name="uc">8dp</dimen>
+    <dimen name="or">16sp</dimen>
+    <dimen name="tf">24dp</dimen>
+    <dimen name="tz">24dp</dimen>
+    <dimen name="q0">20dp</dimen>
+    <dimen name="q2">4dp</dimen>
+    <dimen name="q6">96dp</dimen>
+    <dimen name="q9">0dp</dimen>
+    <dimen name="zb">0dp</dimen>
+    <dimen name="zp">104dp</dimen>
+    <dimen name="zf">68dp</dimen>
+    <dimen name="zq">28dp</dimen>
+    <dimen name="zz">64dp</dimen>
+    <dimen name="zn">32dp</dimen>
+    <dimen name="zh">24dp</dimen>
+    <dimen name="zd">32dp</dimen>
+    <dimen name="gq">14sp</dimen>
+    <dimen name="gz">4dp</dimen>
+    <dimen name="gn">20sp</dimen>
+    <dimen name="gh">16sp</dimen>
+    <dimen name="gd">42dp</dimen>
+    <dimen name="gm">7sp</dimen>
+    <dimen name="gg">12sp</dimen>
+    <dimen name="gs">10dp</dimen>
+    <dimen name="gj">4dp</dimen>
+    <dimen name="g0">13sp</dimen>
+    <dimen name="g1">10sp</dimen>
+    <dimen name="g2">16sp</dimen>
+</resources>

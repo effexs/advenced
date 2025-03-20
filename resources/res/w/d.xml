@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/nh" android:layout_width="77dp" android:layout_height="match_parent">
+    <TextView android:textSize="12sp" android:layout_gravity="center" android:layout_width="30dp" android:layout_height="wrap_content" android:layout_marginTop="12sp" android:text="More Apps" android:maxLines="2"/>
+    <View android:background="#9d9ea0" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="12dp" android:layout_marginStart="8dp" android:layout_marginEnd="8dp"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/flat_rv" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="12dp"/>
+</LinearLayout>

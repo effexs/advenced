@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ey">
+        <item name="pj">18.66dp</item>
+        <item name="ty">24dp</item>
+        <item name="nh">3.33dp</item>
+    </style>
+</resources>

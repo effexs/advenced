@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="s">
+    </style>
+    <style name="w">
+    </style>
+    <style name="ls">
+        <item name="android:navigationBarColor">@android:color/black</item>
+    </style>
+    <style name="lj">
+        <item name="android:navigationBarColor">@color/o9</item>
+        <item name="?0x101056c">false</item>
+    </style>
+    <style name="mbridge_transparent_common_activity_style">
+    </style>
+</resources>

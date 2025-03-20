@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:tag="layout/ad_content_btn_bottom_0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginStart="12dp" android:layout_marginEnd="12dp">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/ad_icon" android:tag="binding_1" android:layout_width="32dp" android:layout_height="32dp"/>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14sp" android:textStyle="bold" android:textColor="?attr/bt1" android:ellipsize="end" android:gravity="start" android:id="@+id/ad_headline" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:drawablePadding="2dp" android:layout_marginStart="8dp" android:layout_toEndOf="@+id/ad_icon"/>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="12sp" android:textColor="?attr/bt2" android:ellipsize="end" android:gravity="start" android:id="@+id/ad_body" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:maxLines="2" android:layout_below="@+id/ad_headline" android:layout_marginStart="8dp" android:layout_toEndOf="@+id/ad_icon" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="@+id/ad_headline" app:layout_constraintTop_toBottomOf="@+id/ad_headline"/>
+    </RelativeLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:textColor="?attr/oy" android:gravity="center" android:id="@+id/ad_call_to_action" android:tag="layout/ad_content_btn_bottom_3" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginTop="12dp" android:layout_marginStart="12dp" android:layout_marginEnd="12dp"/>
+    <Space android:tag="layout/ad_content_btn_bottom_4" android:layout_width="0dp" android:layout_height="20dp"/>
+</merge>

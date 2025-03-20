@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="uu">24dp</dimen>
+    <dimen name="x5">36dp</dimen>
+    <dimen name="fl">170dp</dimen>
+</resources>

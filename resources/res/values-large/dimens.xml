@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="j">440dp</dimen>
+    <dimen name="bu">60%</dimen>
+    <dimen name="bl">90%</dimen>
+    <dimen name="be">60%</dimen>
+    <dimen name="ba">90%</dimen>
+    <dimen name="bx">55%</dimen>
+    <dimen name="bf">80%</dimen>
+</resources>

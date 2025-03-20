@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/layoutLoading" android:tag="layout/layout_loading_one_home_filter_0" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="12dp">
+    <View android:tag="binding_1" android:layout_width="0dp" android:layout_height="26dp" android:alpha="0.8" android:layout_marginStart="12dp"/>
+    <View android:tag="binding_2" android:layout_width="0dp" android:layout_height="26dp" android:alpha="0.8" android:layout_marginStart="8dp"/>
+    <View android:tag="binding_3" android:layout_width="0dp" android:layout_height="26dp" android:alpha="0.8" android:layout_marginStart="8dp"/>
+    <View android:tag="binding_4" android:layout_width="0dp" android:layout_height="26dp" android:alpha="0.8" android:layout_marginStart="8dp"/>
+    <View android:tag="binding_5" android:layout_width="0dp" android:layout_height="26dp" android:alpha="0.8" android:layout_marginStart="12dp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

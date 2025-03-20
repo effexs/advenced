@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/flat_view_bg" android:background="@drawable/t5" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="@+id/flat_tv_app_type" app:layout_constraintTop_toTopOf="@+id/flat_include_gp_info"/>
+    <View android:id="@+id/flat_view_bottom" android:background="@color/gp" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="@+id/flat_rv_detail"/>
+    <include android:id="@+id/flat_include_gp_info" layout="@layout/l8"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/flat_rv_detail" android:layout_width="match_parent" android:layout_height="180dp" android:layout_marginTop="20dp" app:layout_constraintTop_toBottomOf="@+id/flat_include_gp_info"/>
+    <TextView android:textSize="17sp" android:textStyle="bold" android:textColor="@color/b5" android:id="@+id/flat_tv_app_type" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" app:layout_constraintTop_toBottomOf="@+id/flat_rv_detail"/>
+    <TextView android:textSize="15sp" android:textColor="@color/fv" android:id="@+id/flat_tv_detail" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="@+id/flat_tv_app_type"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

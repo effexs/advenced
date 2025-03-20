@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/video_detail_guide_0" android:background="#96000000" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/include_guide_background" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/vd"/>
+    <include android:id="@+id/include_guide_popup" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/vi"/>
+    <include android:id="@+id/include_guide_auto_play" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/vh"/>
+    <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:id="@+id/tv_next" android:tag="binding_1" android:background="@drawable/oi" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="110dp" android:minHeight="40dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:layout_constraintVertical_bias="0.86"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

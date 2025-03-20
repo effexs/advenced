@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="b">
+        <item quantity="one">ရှေ့သို့ %d စက္ကန့်ရစ်ရန်</item>
+        <item quantity="other">ရှေ့သို့ %d စက္ကန့်ရစ်ရန်</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="one">နောက်သို့ %d စက္ကန့်ရစ်ရန်</item>
+        <item quantity="other">နောက်သို့ %d စက္ကန့်ရစ်ရန်</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="one">အကြောင်းကြားချက်အသစ် %d ခု</item>
+        <item quantity="other">အကြောင်းကြားချက်အသစ် %d ခု</item>
+    </plurals>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<splits xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <module name="">
+        <language>
+            <entry key="ar" split=""/>
+            <entry key="az" split=""/>
+            <entry key="bg" split=""/>
+            <entry key="bn" split=""/>
+            <entry key="de" split=""/>
+            <entry key="el" split=""/>
+            <entry key="es" split=""/>
+            <entry key="fr" split=""/>
+            <entry key="gu" split=""/>
+            <entry key="hi" split=""/>
+            <entry key="hr" split=""/>
+            <entry key="hu" split=""/>
+            <entry key="in" split=""/>
+            <entry key="it" split=""/>
+            <entry key="iw" split=""/>
+            <entry key="km" split=""/>
+            <entry key="ko" split=""/>
+            <entry key="mr" split=""/>
+            <entry key="ms" split=""/>
+            <entry key="my" split=""/>
+            <entry key="pl" split=""/>
+            <entry key="pt" split=""/>
+            <entry key="ro" split=""/>
+            <entry key="ru" split=""/>
+            <entry key="sr" split=""/>
+            <entry key="th" split=""/>
+            <entry key="tr" split=""/>
+            <entry key="uk" split=""/>
+            <entry key="vi" split=""/>
+        </language>
+    </module>
+</splits>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/item_video_detail_small_like_button_0" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="4dp" android:paddingEnd="4dp">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/like" android:paddingTop="3dp" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="8dp">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/ivLike" android:padding="1dp" android:layout_width="24dp" android:layout_height="24dp"/>
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="11sp" android:id="@+id/tvLike" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="3dp" app:srcCompat="?attr/gn"/>
+            <View android:background="#e0e0e0" android:layout_width="1dp" android:layout_height="16dp" android:layout_marginStart="10dp"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/dislike" android:paddingTop="3dp" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="5dp" android:paddingEnd="8dp">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/ivDislike" android:padding="1dp" android:layout_width="24dp" android:layout_height="24dp" app:srcCompat="?attr/gz"/>
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="11sp" android:id="@+id/tvDislike" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="3dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

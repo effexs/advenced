@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="n">
+        <item>0,25-fach</item>
+        <item>0,5-fach</item>
+        <item>0,75-fach</item>
+        <item>Standard</item>
+        <item>1,25-fach</item>
+        <item>1,5-fach</item>
+        <item>2-fach</item>
+    </array>
+    <array name="m">
+        <item>Puffern</item>
+        <item>Kann nicht spielen</item>
+        <item>Kann nicht anmelden</item>
+        <item>Zu viele Anzeigen</item>
+        <item>Anzeigenfehler</item>
+        <item>Unangemessener Anzeigeninhalt</item>
+        <item>Andere App verwenden</item>
+    </array>
+</resources>

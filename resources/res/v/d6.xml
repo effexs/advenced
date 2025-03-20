@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/layout_wait_login_plan_f_me_entrance_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?attr/ba7" android:layout_width="match_parent" android:layout_height="75dp">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="50dp" android:layout_height="50dp" android:layout_marginStart="12dp" app:srcCompat="@drawable/z0"/>
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/gb" android:gravity="center" android:tag="binding_1" android:layout_width="112dp" android:layout_height="40dp" android:text="@string/bgm" android:layout_marginStart="12dp" drawable_centerColor="@{context.getColor(com.vanced.module.account_impl.R.color.gradient_btn_center_color)"/>
+    </LinearLayout>
+</FrameLayout>

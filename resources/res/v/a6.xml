@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fragment_live_tab_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.vanced.page.list_business_interface.view.PagerSwipeRefreshLayout android:id="@+id/refreshLayout" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent">
+        <WebView android:id="@+id/webView" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.vanced.page.list_business_interface.view.PagerSwipeRefreshLayout>
+    <include android:layout_gravity="center" android:layout_width="@dimen/rg" android:layout_height="@dimen/rg" layout="@layout/np"/>
+</FrameLayout>

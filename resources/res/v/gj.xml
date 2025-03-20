@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.vanced.player.watch.ui.view.ExpandableSurfaceView android:layout_gravity="center" android:id="@+id/surfaceView" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:id="@+id/surfaceForeground" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:layout_gravity="center" android:id="@+id/endScreen" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+    <com.google.android.exoplayer2.ui.SubtitleView android:layout_gravity="center" android:id="@+id/subtitleView" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/loading_panel" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:layout_gravity="center" android:id="@+id/progressBarLoadingPanel" android:layout_width="64dp" android:layout_height="64dp" android:indeterminate="true" layout="@layout/np"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/player_error" android:background="#c0000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="72dp" android:layout_height="72dp" android:scaleType="fitCenter" app:srcCompat="@drawable/jc"/>
+    </FrameLayout>
+    <RelativeLayout android:id="@+id/rl_youtube" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/iv_channel_avatar" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginTop="7dp" android:layout_marginStart="8dp"/>
+        <TextView android:textColor="#fff" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/tv_video_name" android:layout_width="match_parent" android:layout_height="30dp" android:singleLine="true" android:layout_alignBottom="@+id/iv_channel_avatar" android:layout_marginStart="8dp" android:layout_marginEnd="8dp" android:layout_toEndOf="@+id/iv_channel_avatar"/>
+        <androidx.appcompat.widget.AppCompatImageView android:orientation="horizontal" android:id="@+id/ll_youtube_logo" android:layout_width="105dp" android:layout_height="24dp" android:layout_marginRight="8dp" android:layout_marginBottom="8dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" app:srcCompat="@drawable/j2"/>
+    </RelativeLayout>
+</FrameLayout>

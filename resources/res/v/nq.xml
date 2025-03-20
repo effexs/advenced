@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/layout_platform_item_0" android:background="?attr/ba7" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/d5" android:paddingStart="@dimen/d8">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/ivPlatform" android:tag="binding_1" android:layout_width="@dimen/d6" android:layout_height="@dimen/d6"/>
+        <TextView android:textSize="16sp" android:textColor="?attr/bt1" android:gravity="start" android:tag="binding_2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="@dimen/d7" android:layout_marginEnd="6dp"/>
+    </LinearLayout>
+</FrameLayout>

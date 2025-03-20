@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fragment_google_search_fragment_0" android:background="?attr/a0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.vanced.module.search_impl.search.result.page.google.browser.BrowserView android:id="@+id/browser_view" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/video_detail_mini_player_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/overlay_background" android:background="?attr/bpl" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:id="@+id/overlay_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@+id/overlay_thumbnail_space" android:layout_width="@dimen/tx" android:layout_height="@dimen/tr" android:layout_alignParentStart="true"/>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/thumbnail_image_view" android:background="@android:color/transparent" android:layout_width="@dimen/tx" android:layout_height="@dimen/tr" android:scaleType="fitCenter" android:contentDescription="@string/z5"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/overlay_metadata_layout" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/tr" android:layout_marginStart="8dp" android:layout_toStartOf="@+id/overlay_buttons_layout" android:layout_toEndOf="@+id/overlay_thumbnail_space">
+            <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="12dp" android:ellipsize="marquee" android:id="@+id/overlay_title_text_view" android:fadingEdge="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever"/>
+            <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textSize="12dp" android:ellipsize="marquee" android:id="@+id/overlay_channel_text_view" android:fadingEdge="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/overlay_buttons_layout" android:paddingLeft="6dp" android:layout_width="wrap_content" android:layout_height="@dimen/tr" android:paddingStart="6dp" android:layout_alignParentEnd="true">
+            <FrameLayout android:id="@+id/overlay_play_pause_button_wrap" android:background="?attr/bpl" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageButton android:id="@+id/overlay_play_pause_button" android:background="?attr/ba7" android:padding="10dp" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="2dp" android:layout_marginRight="2dp" android:scaleType="center" android:layout_marginStart="2dp" android:layout_marginEnd="2dp" app:srcCompat="?attr/m4"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/overlay_queue_button_wrap" android:background="?attr/bpl" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageButton android:id="@+id/overlay_queue_button" android:background="?attr/ba7" android:padding="10dp" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="2dp" android:layout_marginRight="2dp" android:scaleType="center" android:layout_marginStart="2dp" android:layout_marginEnd="2dp" app:srcCompat="?attr/iv"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/overlay_close_button_wrap" android:background="?attr/bpl" android:paddingRight="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="6dp">
+                <ImageButton android:id="@+id/overlay_close_button" android:background="?attr/ba7" android:padding="10dp" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="2dp" android:scaleType="center" android:layout_marginStart="2dp" app:srcCompat="?attr/h8"/>
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

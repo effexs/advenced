@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/ad_temp_horizontal_move_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.vanced.ad.ad_one.sdk.ui.template.AutoScrollingHorizontalScrollView android:id="@+id/auto_scroller" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+            <androidx.appcompat.widget.AppCompatImageView android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="match_parent" android:adjustViewBounds="true"/>
+        </com.vanced.ad.ad_one.sdk.ui.template.AutoScrollingHorizontalScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include android:id="@+id/ad_include" layout="@layout/bc"/>
+</LinearLayout>

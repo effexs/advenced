@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/blurBgLayout" android:background="@drawable/ah" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/blurBgImage" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    </FrameLayout>
+    <ImageView android:layout_gravity="bottom" android:id="@+id/ivFakeMedia" android:layout_width="1dp" android:layout_height="1dp"/>
+    <FrameLayout android:id="@+id/coverBgLayout" android:background="#99000000" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="50dp">
+            <ImageView android:layout_gravity="center" android:id="@+id/ivMedia" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="360dp"/>
+        </FrameLayout>
+        <View android:layout_gravity="bottom" android:background="@drawable/am" android:layout_width="match_parent" android:layout_height="360dp"/>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="30dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+            <ImageView android:id="@+id/ivIcon" android:layout_width="55dp" android:layout_height="55dp"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="8dp">
+                <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/tvTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1"/>
+                <TextView android:textSize="14sp" android:textColor="#ffb3b3b3" android:ellipsize="end" android:id="@+id/tvDes" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:maxLines="1" android:fontFamily="sans-serif-medium"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@+id/viewSpacer" android:layout_width="match_parent" android:layout_height="16dp"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/btn" android:background="@drawable/an" android:layout_width="match_parent" android:layout_height="40dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="right" android:id="@+id/flClose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16dp">
+        <ImageView android:background="@drawable/ad" android:layout_width="36dp" android:layout_height="36dp"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/ivClose" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bb3"/>
+        <TextView android:textSize="14sp" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@+id/tvSecond" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3s"/>
+    </FrameLayout>
+    <RelativeLayout android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/ad_choice_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</FrameLayout>

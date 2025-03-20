@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/layout_wait_login_plan_e_me_entrance_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="?attr/ba7" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:paddingTop="12.5dp" android:paddingBottom="12.5dp" android:layout_width="match_parent" android:layout_height="145dp" android:src="@drawable/yr"/>
+        <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="?attr/bt1" android:gravity="center" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/bum" android:layout_marginStart="36dp" android:layout_marginEnd="36dp"/>
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:tag="binding_2" android:layout_width="112dp" android:layout_height="42dp" android:layout_marginTop="8dp" android:layout_marginBottom="16dp" android:text="@string/bgm"/>
+        <View android:id="@+id/viewLine" android:background="?attr/o9" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginStart="@dimen/o1" android:layout_marginEnd="@dimen/o1"/>
+    </LinearLayout>
+</FrameLayout>
